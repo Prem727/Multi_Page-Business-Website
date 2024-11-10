@@ -1,0 +1,951 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg{
+    background-color: rgba(250, 235, 215, 0.564);
+}
+.bg11{
+    background-color: rgba(250, 235, 215, 0.564);
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.toogle{
+    display: none;
+}
+.toogle ul{
+    list-style: none;
+}
+.toogle a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.975);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.sidebar i{
+    font-size: 30px;
+}
+.sidebar ul li{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+.sidebar a:hover{
+    background-color: whitesmoke;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+   display: flex;
+   justify-content:flex-start;
+   margin-bottom: 100px;
+   padding: 20px 0px;
+}
+.one img{
+    height: 150px;
+    margin-right: 20px;
+}
+.two{
+    display: flex;
+    padding: 30px 0px;
+}
+.two ul li, .three ul li{
+    display:inline;
+    padding: 10px;
+    
+}
+
+.two1 ul li:first-child,.two1 ul li:nth-child(2), .two2 ul li:first-child{
+    border-right: 2px solid black; 
+}
+.two2{
+    padding-left: 100px;
+}
+.two a, .three a{
+    text-decoration: none;
+    color: gray;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.three1 ul li:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+.btn1{
+    border-radius:20px;
+    background-color: rgba(250, 235, 215, 0.564);
+    padding:10px 20px;
+}
+.btn1:hover{
+    background-color: orange;
+    transition: 1s;
+}
+.four a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+    
+}
+.four a p{
+    font-size: 18px;
+}
+.four a h3{
+    font-weight: bolder;
+}
+.four a h3:hover{
+    color: red;
+    transition: 1s;
+}
+.four ul li{
+    display: inline;
+}
+.four{
+    text-align: center;
+    padding: 0px 20x;
+}
+
+.five h1{
+    text-align: center;
+    font-size: 50px;
+}
+.fourm{
+    padding: 70px 0px;
+}
+
+
+
+
+
+
+
+
+
+.main1{
+    padding: 50px 0px;
+    margin-bottom: 150px;  
+}
+.six{
+    display: flex;
+    justify-content: space-between;
+
+}
+.six1 h4{
+    color: red;
+}
+.six2{
+    margin-top: 80px;
+}
+.seven{
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+    gap: 40px;
+    margin: 50px 0px 60px 0px;
+    
+}
+.seven1{
+    border: 1px solid black;
+    padding: 60px 30px;
+    background-color: white;
+}
+.seven1 h2{
+    display: inline-block;
+}
+.underline {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: -40px; 
+    text-decoration-color: black; 
+}
+.seven1:hover{
+    background-color: orange;
+    transition: 1s;
+}
+
+.seven1 a i{
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+
+.main2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.eight h4{
+    color: red;
+}
+.eight h1{
+    font-size: 50px;
+    padding: 10px 0px;
+}
+.nine{
+    display: flex;
+    margin-top: 50px;
+}
+.nine1{
+    font-size:50px;
+    padding-right: 50px;
+}
+
+
+
+
+
+.main3{
+    margin: 100px 0px;
+}
+.main31{
+    text-align: center;
+    margin: 30px;
+}
+.main31 h4{
+    color:red;
+}
+.eleven{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.btn2{
+    border: none;
+    background-color: white;   
+}
+
+.btn2:hover{
+    border-radius:20px;
+    padding: 12px;
+    background-color: orange;
+    transition: 1s; 
+}
+
+
+.twelve{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 50px;
+    margin: 80px 0px;
+}
+.twelve1 img{
+    height: 300px;
+    width: 100%;
+}
+.twelve11{
+    display: flex;
+    justify-content: space-between;
+}
+.btn3{
+    border: none;
+    background-color: white;
+}
+.btn4{
+    color: black;
+    border-radius:20px;
+    background-color:white;
+    padding: 15px;
+}
+.btn4:hover{
+    color: white;
+    border-radius:20px;
+    background-color:black;
+    padding: 15px;
+    transition: 1s;
+}
+.thirteen{
+    text-align: center;
+
+}
+
+
+
+
+
+
+.main4{
+    padding: 80px;
+
+}
+.fourteen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifteen{
+    display: flex;
+    gap: 40px;
+}
+.form{
+    padding: 15px;
+    border-radius: 20px;
+}
+.btn5{
+    background-color: rgba(250, 235, 215, 0.564);
+    padding: 12px;
+    border-radius: 20px;
+}
+.btn5:hover{
+    background-color: orange;
+    transition: 1s;
+}
+
+
+
+.bg2{
+    background-color: rgba(0, 0, 0, 0.763);
+}
+.sixteen{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.sixteen1{
+    padding: 50px 0px;
+}
+.sixteen2{
+    padding: 50px 0px;
+}
+.sixteen2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.sixteen2 h1{
+    margin-bottom: 50px;
+}
+.sixteen2 ul li{
+    display: block;
+}
+
+
+
+
+
+
+.main6{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.eighteen ul li{
+    display: inline;
+}
+.seventeen h3{
+    color: white;
+}
+.eighteen i{
+    padding: 10px;
+}
+.eighteen a{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 426px){
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    .toogle{
+        display: block;
+    }
+    .toogle fa-solid, .fa-bars{
+        font-size:30px;
+    }
+    .main0{
+        display: none;
+    }
+    .bg11{
+        background-color: white;
+    }
+    .one img{
+        height:40px;
+        width: 50px;
+        margin: 0px 0px;
+    }
+    
+
+
+
+
+
+
+
+
+
+    
+.main1{
+    padding: 50px 0px;
+    margin-bottom: 50px; 
+    text-align: center;
+}
+.six{
+    display: block;
+}
+.six1 h1{
+    font-size: 20px;
+}
+.six1 h4{
+    color: red;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.six2 p{
+    font-size: 15px;
+}
+.six2{
+    margin: 30px 0px;
+}
+.seven{
+    display: block;
+    margin: 50px 0px 0px 0px;
+    
+}
+.seven1{
+    padding: 40px 10px;
+    margin: 20px 0px;
+}
+
+.seven1 p{
+    font-size: 13px;
+}
+.seven1 h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.seven1 a i{
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+
+
+
+.main2{
+    display: block;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.eight h4{
+    color: red;
+    font-size: 10px;
+}
+.eight h1{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.nine{
+    display: block;
+    margin-top: 50px;
+}
+.nine1{
+    font-size:50px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.nine2 h2{
+    font-size: 15px;
+}
+.nine2 p{
+    font-size: 10px;
+}
+.ten img{
+    height: 300px;
+    width: 250px;
+    margin: 50px 0px;
+}
+
+
+
+
+
+
+.main3{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.main31{
+    margin: 20px 0px;
+}
+.main31 h4{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.main31 h1{
+    font-size: 20px;
+}
+.eleven{
+    display: block;
+    padding: 10px 0px;
+}
+.eleven1{
+    margin: 20px 0px;
+}
+
+.twelve{
+    display: block;
+    margin: 50px 0px;
+}
+.twelve1 img{
+    height: 300px;
+    width: 250px;
+    margin-top: 10px;
+}
+.twelve11{
+    display: block; 
+}
+.twelve1 h3{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.twelve11 p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+
+.btn4{
+    color: black;
+    border-radius:20px;
+    background-color:white;
+    padding: 15px;
+    font-size: 10px;
+}
+.btn2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btn3{
+    font-size: 10px;
+}
+
+
+
+
+
+
+.main4{
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fourteen{
+    display: block;
+}
+.fourteen1 h1{
+    font-size: 20px;
+}
+.fifteen{
+    display: block;
+}
+.form{
+    margin: 20px 0px;
+}
+.btn5{
+    padding: 10px 15px;
+}
+
+
+
+
+.main5{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.sixteen{
+    display: block;
+}
+.sixteen1{
+    padding: 10px 0px;
+}
+.sixteen1 p{
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.sixteen2{
+    padding: 0px 0px;
+    margin-bottom: 20px;
+}
+.sixteen2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.sixteen2 h1{
+    margin-bottom: 30px;
+}
+.sixteen2 ul li{
+    display: block;
+}
+
+.main6{
+    display: block;
+    padding: 20px;
+}
+.seventeen h3{
+    font-size: 15px;
+}
+.eighteen ul li{
+    display: inline;
+}
+.eighteen i{
+    padding:20px 40px 0px 0px;
+}
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 770px){
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    .toogle{
+        display: block;
+    }
+    .toogle fa-solid, .fa-bars{
+        font-size:30px;
+    }
+    .main0{
+        display: none;
+    }
+    .bg11{
+        background-color: white;
+    }
+    .one img{
+        height:40px;
+        width: 50px;
+        margin: 0px 0px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+.main1{
+    padding: 50px 0px;
+    margin-bottom: 50px; 
+    text-align: center;
+}
+.six{
+    display: block;
+}
+.six1 h1{
+    font-size: 30px;
+}
+.six1 h4{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.six2 p{
+    font-size: 15px;
+}
+.six2{
+    margin: 30px 0px;
+}
+.seven{
+    display: block;
+    margin: 50px 0px 0px 0px;
+    
+}
+.seven1{
+    padding: 40px 10px;
+    margin: 20px 0px;
+}
+
+.seven1 p{
+    font-size: 15px;
+}
+.seven1 h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.seven1 a i{
+    font-size: 40px;
+    margin-left: 480px;
+    margin-top: 20px;
+    color: black;
+}
+
+
+
+
+
+.main2{
+    display: block;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.eight h4{
+    color: red;
+    font-size: 15px;
+}
+.eight h1{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.nine{
+    display: block;
+    margin-top: 50px;
+}
+.nine1{
+    font-size:70px;
+    padding-right: 0px;
+}
+.nine2 h2{
+    font-size: 30px;
+}
+.nine2 p{
+    font-size: 15px;
+}
+.ten img{
+    height: 500px;
+    width: 500px;
+    margin: 50px 0px;
+}
+
+
+
+
+
+
+.main3{
+    margin-bottom: 100px;
+    text-align: center;
+}
+.main31{
+    margin: 20px 0px;
+}
+.main31 h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.main31 h1{
+    font-size: 30px;
+}
+.eleven{
+    display: block;
+    padding: 10px 0px;
+}
+.eleven1{
+    margin: 20px 0px;
+}
+
+.twelve{
+    display: block;
+    margin: 50px 0px;
+}
+.twelve1 img{
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+}
+.twelve11{
+    margin: 20px 0px;
+}
+.twelve1 h3{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.twelve11 p{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.btn4{
+    color: black;
+    border-radius:20px;
+    background-color:white;
+    padding: 15px;
+    font-size: 15px;
+}
+.btn2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.btn3{
+    font-size: 15px;
+}
+
+
+
+
+
+
+.main4{
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.fourteen{
+    display: block;
+}
+.fourteen1 h1{
+    font-size: 30px;
+}
+.fifteen{
+    display: block;
+}
+.form{
+    margin: 20px 0px;
+    padding: 10px 80px 10px 5px;
+}
+.btn5{
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+
+.main5{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.sixteen1{
+    padding: 10px 0px;
+}
+.sixteen1 p{
+    font-size: 12px;
+    margin: 15px 0px;
+}
+.sixteen2{
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.sixteen2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.sixteen2 h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.sixteen2 ul li{
+    display: block;
+    font-size: 12px;
+}
+
+
+
+.main6{
+    padding: 20px;
+    padding: 20px 0px 20px 0px;
+}
+.seventeen h3{
+    font-size: 15px;
+}
+.eighteen ul li{
+    display: inline;
+}
+.eighteen i{
+    padding:0px 10px 0px 0px;
+}
+
+
+
+}
