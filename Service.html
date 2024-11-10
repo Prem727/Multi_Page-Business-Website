@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="bg11">
+        <div class="container">
+        <div class="main">
+        <div class="one">
+            <img src="logo1-1-96x96.png">
+        </div>
+
+
+
+
+    
+        <div class="toogle">
+            <ul>
+                <li onclick="showSidebar(event)"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </div>
+            <div class="sidebar">
+                <ul>
+                    <li onclick="hideSidebar()"><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html" target="_blank">ABOUT</a></li>
+                    <li><a href="service.html" target="_blank">Service</a></li>
+                    <li><a href="blog.html" target="_blank">Blog</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+    
+                </ul>
+            </div>
+        
+    
+    
+    
+    
+    
+    
+                <script>
+                    function showSidebar(event){
+                        event.preventDefault();
+                        const sidebar = document.querySelector('.sidebar');
+                        const toogle = document.querySelector(".toogle");
+                        if(sidebar.style.display === "flex"){
+                            sidebar.style.display ="none";
+                            toogle.style.display ="block";
+                        }
+                        else{
+                            sidebar.style.display ="flex";
+                            toogle.style.display ="none";
+                        }
+    
+                    }
+                    function hideSidebar(){
+                        const sidebar = document.querySelector('.sidebar');
+                        const toogle = document.querySelector(".toogle");
+                        sidebar.style.display ="none";
+                        toogle.style.display ="block";
+                    }
+                </script>
+
+
+
+
+
+
+
+
+        <div class="main0">
+            <div class="two">
+            <div class="two1">
+            <ul>
+            <li><a href=""><i class="fa-solid fa-phone">&nbsp;&nbsp;&nbsp;</i>+91|6300123839</a></li>
+            <li><a href=""><i class="fa-regular fa-envelope">&nbsp;&nbsp;&nbsp;</i>premkiran727@gmail.com</a></li>
+            <li><a href=""><i class="fa-solid fa-map-location-dot">&nbsp;&nbsp;&nbsp;</i>120F 2th YT, Kothagudem</a></li>
+            </ul>
+            </div>
+            <div class="two2">
+            <ul>
+            <li><a href=""><i class="fa-solid fa-clock">&nbsp;&nbsp;&nbsp;</i>Mon-Fri 09.00-05.00</a></li>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+            </div>
+            </div>
+            <hr>
+            <div class="three">
+                <div class="three1">
+                <ul>
+                    <li><a href="home.html" target="_blank">HOME</a></li>
+                    <li><a href="about.html" target="_blank">ABOUT</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="blog.html" target="_blank">Blog</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                </ul>
+                </div>
+                <div class="three2">
+                    <ul>
+                        <li><button class="btn1">Consulting<i class="fa-solid fa-arrow-right"></i></button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fourm">
+            <div class="four">
+            <ul>
+                <li><a href="home.html" target="_blank"><p>Home</p></a></li>
+                <li><a href="service.html"><h3>Service</h3></a></li>
+            </ul>
+            
+            </div>
+            <div class="five">
+                <h1>Service</h1>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+        <div class="container">
+            <div class="main1">
+                <div class="six">
+                    <div class="six1">
+                        <h4>Our Services</h4>
+                        <h1>We Provide The Best<br>Service For Consulting</h1>
+                    </div>
+                    <div class="six2">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Voluptatibus dignissimos Lorem.</p>
+                    </div>
+                </div>
+            <div class="seven">
+                <div class="seven1">
+                    <h2><span class="underline">Bus</span>iness Advice</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Sta</span>rtup Business</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Fin</span>ancial Advice</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Ris</span>k Management</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Bus</span>iness Advice</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Sta</span>rtup Business</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Fin</span>ancial Advice</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="seven1">
+                    <h2><span class="underline">Ris</span>k Management</h2>
+                    <p>Deliver faster, more personalized support<br>with shared screens and<br> a Support Bot</p>
+                    <a href=""><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+               </div>
+        </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="main2">
+                <div class="eight">
+                    <h4>Why Choose Us</h4>
+                    <h1>Reasons Why We<br>are Best Business<br>Consulting Agency</h1>
+                    <div class="nine">
+                        <div class="nine1">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="nine2">
+                            <h2>Process Excellence</h2>
+                            <p>Dominions fowle in there light she does lights.</p>
+                        </div>
+                    </div>
+                    <div class="nine">
+                        <div class="nine1">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="nine2">
+                            <h2>Strategic Planning</h2>
+                            <p>Dominions fowle in there light she does lights.</p>
+                        </div>
+                    </div>
+                    <div class="nine">
+                        <div class="nine1">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="nine2">
+                            <h2>Experience Design</h2>
+                            <p>Dominions fowle in there light she does lights.</p>
+                        </div>
+                    </div>
+                    <div class="nine">
+                        <div class="nine1">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="nine2">
+                            <h2>Artificial Inteligence</h2>
+                            <p>Dominions fowle in there light she does lights.</p>
+                        </div>
+                    </div>
+                    </div>
+                <div class="ten">
+                    <img src="about.jpg" alt="">
+                </div>
+            </div>
+           </div>
+
+
+
+
+
+           <div class="container">
+            <div class="main3">
+                <div class="main31">
+                <h4>Project & Case Studies</h4>
+                <h1>Let's Looks<br> Our Global Projects</h1>
+                </div>
+                <hr>
+                <div class="eleven">
+                    <div class="eleven1">
+                       <button class="btn2">Discover All&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="eleven1">
+                        <button class="btn2">Business Advice&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="eleven1">
+                        <button class="btn2">Startup Business&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="eleven1">
+                        <button class="btn2">Financial Advices&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="eleven1">
+                        <button class="btn2">Riskmanagement&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                   </div>
+                   <hr>
+        
+                   <div class="twelve">
+                    <div class="twelve1">
+                        <img src="lap.jpg" alt="">
+                        <h3>Why your client needs a responsive website</h3>
+                        <hr>
+                        <div class="twelve11">
+                            <p>August 30, 2024</p>
+                            <button class="btn3">Read More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="twelve1">
+                        <img src="lap.jpg" alt="" >
+                        <h3>Why your client needs a responsive website</h3>
+                        <hr>
+                        <div class="twelve11">
+                            <p>August 30, 2024</p>
+                            <button class="btn3">Read More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="twelve1">
+                        <img src="lap.jpg" alt="">
+                        <h3>Why your client needs a responsive website</h3>
+                        <hr>
+                        <div class="twelve11">
+                            <p>August 30, 2024</p>
+                            <button class="btn3">Read More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="twelve1">
+                        <img src="lap.jpg" alt="">
+                        <h3>Why your client needs a responsive website</h3>
+                        <hr>
+                        <div class="twelve11">
+                            <p>August 30, 2024</p>
+                            <button class="btn3">Read More&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="thirteen">
+                   <button class="btn4">All Recent Projects <i class="fa-solid fa-arrow-right"></i></button>
+                   </div>
+        
+            </div>
+           </div>
+
+
+
+
+
+           
+           <div class="bg">
+            <div class="container">
+             <div class="main4">
+                 <div class="fourteen">
+                     <div class="fourteen1">
+                         <h1>Get update by<br>signup newsletter</h1>
+                     </div>
+                     <div class="fifteen">
+                         <div class="fifteen1">
+                             <input type="text" placeholder="@your email" class="form">
+                         </div>
+                         <div class="fifteen2">
+                             <button class="btn5">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+            </div>
+            </div>
+            
+         
+
+
+            <div class="bg2">
+            <div class="container">
+             <div class="main5">
+                 <div class="sixteen">
+                     <div class="sixteen1">
+                         <img src="logo1-1-96x96.png" alt="">
+                         <p>Lorem ipsum dolor sit, amet<br>consectetur elit.Vitae corporis<br>cumque animi assumenda aperiam<br>beatae rem autem porro possimus<br>laboriosam.</p>
+                     </div>
+                     <div class="sixteen2">
+                         <h1>Company</h1>
+                         <ul>
+                             <li><a href="">About</a></li>
+                             <li><a href="">Features</a></li>
+                             <li><a href="">Works</a></li>
+                             <li><a href="">Career</a></li>
+                         </ul>
+                     </div>
+                     <div class="sixteen2">
+                         <h1>Help</h1>
+                         <ul>
+                             <li><a href="">Customer Support</a></li>
+                             <li><a href="">Delivery Details</a></li>
+                             <li><a href="">Terms & Conditions</a></li>
+                             <li><a href="">Privacy Policy</a></li>
+                         </ul>
+                     </div>
+                     <div class="sixteen2">
+                         <h1>Resources</h1>
+                         <ul>
+                             <li><a href="">Free eBooks</a></li>
+                             <li><a href="">Development Tutorial</a></li>
+                             <li><a href="">How to - Blog</a></li>
+                             <li><a href="">Youtube Playlist</a></li>
+                         </ul>
+                     </div>
+                     <div class="sixteen2">
+                         <h1>Link</h1>
+                         <ul>
+                             <li><a href="">Free eBooks</a></li>
+                             <li><a href="">Development Tutorial</a></li>
+                             <li><a href="">How to - Blog</a></li>
+                             <li><a href="">Youtube Playlist</a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 
+                 
+             </div>
+            </div>
+            </div>
+            <hr>
+
+
+
+            
+            <div class="bg2">
+            <div class="container">
+             <div class="main6">
+                 <div class="seventeen">
+                     <h3>@ 2024 Bizcam - Consulting Company Inc. All Rights Reserved.</h3>
+                 </div>
+                 <div class="eighteen">
+                     <ul>
+                         <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                         <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                         <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                         <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li> 
+                     </ul>
+                 </div>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+</html>
