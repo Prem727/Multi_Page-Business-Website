@@ -1,0 +1,624 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg{
+    background-color: rgba(250, 235, 215, 0.564);
+}
+.bg11{
+    background-color: rgba(250, 235, 215, 0.564);
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.toogle{
+    display: none;
+}
+.toogle ul{
+    list-style: none;
+}
+.toogle a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.975);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.sidebar i{
+    font-size: 30px;
+}
+.sidebar ul li{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+}
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+.sidebar a:hover{
+    background-color: whitesmoke;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+ display: flex;
+ justify-content:flex-start;
+ padding: 20px 0px;
+}
+.one img{
+    height: 150px;
+    margin-right: 20px;
+}
+.two{
+    display: flex;
+    padding: 30px 0px;
+}
+.two ul li, .three ul li{
+    display:inline;
+    padding: 10px;
+    
+}
+
+.two1 ul li:first-child,.two1 ul li:nth-child(2), .two2 ul li:first-child{
+    border-right: 2px solid black; 
+}
+.two2{
+    padding-left: 100px;
+}
+.two a, .three a{
+    text-decoration: none;
+    color: gray;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.three1 ul li:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+.btn1{
+    border-radius:20px;
+    background-color: rgba(250, 235, 215, 0.564);
+    padding:10px 20px;
+}
+.btn1:hover{
+    background-color: orange;
+    transition: 1s;
+}
+.four a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+    
+}
+.four a p{
+    font-size: 18px;
+}
+.four a h3{
+    font-weight: bolder;
+}
+.four a h3:hover{
+    color: red;
+    transition: 1s;
+}
+.four ul li{
+    display: inline;
+}
+.four{
+    text-align: center;
+}
+
+.five h1{
+    text-align: center;
+    font-size: 50px;
+}
+.fourm{
+    padding: 70px 0px;
+}
+
+
+
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0px;
+}
+.six{
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 50px 110px;
+    text-align: center;
+}
+
+.six1 a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.six1 a i{
+    font-size: 40px;
+}
+
+.six2 h1{
+    padding-bottom: 10px;
+}
+
+
+
+.main2{
+    border: 1px solid rgba(250, 235, 215, 0.564);
+    padding: 70px;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.564);
+    margin-bottom: 70px;
+}
+.main2 h1{
+    margin: 10px 0px;
+}
+.form{
+    padding: 15px 350px 15px 5px;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+.btn2{
+    background-color: rgba(250, 235, 215, 0.564);
+    padding: 15px 450px 15px 5px;
+    border-radius: 20px;
+}
+.btn2:hover{
+    background-color: orange;
+    transition: 1s;
+}
+
+
+
+
+
+.main3 img{
+    width: 1510px;
+    height: 370px;
+}
+
+
+
+
+
+.bg2{
+    background-color: rgba(0, 0, 0, 0.763);
+}
+.seven{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.seven1{
+    padding: 50px 0px;
+}
+.seven2{
+    padding: 50px 0px;
+}
+.seven2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.seven2 h1{
+    margin-bottom: 50px;
+}
+.seven2 ul li{
+    display: block;
+}
+
+
+
+
+
+
+.main5{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nine ul li{
+    display: inline;
+}
+.eight h3{
+    color: white;
+}
+.nine i{
+    padding: 10px;
+}
+.nine a{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 426px){
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    .toogle{
+        display: block;
+    }
+    .toogle fa-solid, .fa-bars{
+        font-size:30px;
+    }
+    .main0{
+        display: none;
+    }
+    .bg11{
+        background-color: white;
+    }
+    .one img{
+        height:40px;
+        width: 50px;
+        margin: 0px 0px;
+    }
+    
+
+
+
+
+
+
+
+
+
+    
+
+.main1{
+    display: block;
+    margin: 30px 0px 50px 0px;
+    text-align: center;
+}
+.six{
+    display: block;
+    padding: 50px 0px;
+    margin: 20px 0px;
+}
+.six1 a i{
+    font-size: 50px;
+}
+
+.six2 h1{
+    padding-bottom: 0px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.six2 p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+.main2{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main2 h1{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.form{
+    padding: 10px 0px 10px 5px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.btn2{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.main3 img{
+    width: 320px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+.main4{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.seven{
+    display: block;
+}
+.seven1{
+    padding: 10px 0px;
+}
+.seven1 p{
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.seven2{
+    padding: 0px 0px;
+    margin-bottom: 20px;
+}
+.seven2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.sixteen2 h1{
+    margin-bottom: 30px;
+}
+.sixteen2 ul li{
+    display: block;
+}
+
+
+
+
+.main5{
+    display: block;
+    padding: 20px;
+}
+.eight h3{
+    font-size: 15px;
+}
+.nine ul li{
+    display: inline;
+}
+.nine i{
+    padding:20px 40px 0px 0px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 426px) and (max-width: 770px){
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    .toogle{
+        display: block;
+    }
+    .toogle fa-solid, .fa-bars{
+        font-size:30px;
+    }
+    .main0{
+        display: none;
+    }
+    .bg11{
+        background-color: white;
+    }
+    .one img{
+        height:40px;
+        width: 50px;
+        margin: 0px 0px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+.main1{
+    display: block;
+    margin: 30px 0px 50px 0px;
+    text-align: center;
+}
+.six{
+    display: block;
+    padding: 50px 0px;
+    margin: 20px 0px;
+}
+.six1 a i{
+    font-size: 70px;
+}
+
+.six2 h1{
+    padding-bottom: 0px;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.six2 p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+.main2{
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.main2 h1{
+    margin: 10px 0px;
+    font-size: 30px;
+}
+.form{
+    padding: 10px 0px 10px 5px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.btn2{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.main3 img{
+    width: 768px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+.main4{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.seven1{
+    padding: 10px 0px;
+}
+.seven1 p{
+    font-size: 12px;
+    margin: 15px 0px;
+}
+.seven2{
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.seven2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.seven2 h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.seven2 ul li{
+    display: block;
+    font-size: 12px;
+}
+
+
+
+.main5{
+    padding: 20px;
+    padding: 20px 0px 20px 0px;
+}
+.eight h3{
+    font-size: 15px;
+}
+.nine ul li{
+    display: inline;
+}
+.nine i{
+    padding:0px 10px 0px 0px;
+}
+
+
+
+
+
+
+}
