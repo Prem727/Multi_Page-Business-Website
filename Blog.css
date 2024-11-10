@@ -1,0 +1,594 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg{
+    background-color: rgba(250, 235, 215, 0.564);
+}
+.bg11{
+    background-color: rgba(250, 235, 215, 0.564);
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.main{
+ display: flex;
+ justify-content:flex-start;
+ padding: 20px 0px;
+}
+.one img{
+    height: 150px;
+    margin-right: 20px;
+}
+.two{
+    display: flex;
+    padding: 30px 0px;
+}
+.two ul li, .three ul li{
+    display:inline;
+    padding: 10px;
+    
+}
+
+.two1 ul li:first-child,.two1 ul li:nth-child(2), .two2 ul li:first-child{
+    border-right: 2px solid black; 
+}
+.two2{
+    padding-left: 100px;
+}
+.two a, .three a{
+    text-decoration: none;
+    color: gray;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.three1 ul li:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+.btn1{
+    border-radius:20px;
+    background-color: rgba(250, 235, 215, 0.564);
+    padding:10px 20px;
+}
+.btn1:hover{
+    background-color: orange;
+    transition: 1s;
+}
+.four a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+    
+}
+.four a p{
+    font-size: 18px;
+}
+.four a h3{
+    font-weight: bolder;
+}
+.four a h3:hover{
+    color: red;
+    transition: 1s;
+}
+.four ul li{
+    display: inline;
+}
+.four{
+    text-align: center;
+}
+
+.five h1{
+    text-align: center;
+    font-size: 50px;
+}
+.fourm{
+    padding: 70px 0px;
+}
+
+
+
+
+.main1{
+    margin: 130px 0px;
+    padding: 10px;
+}
+.six h1{
+    margin-bottom: 50px;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.seven1 img{
+    height: 250px;
+    width: 400px;
+    margin-bottom: 10px;
+    
+}
+.seven1 h1{
+    margin-bottom: 10px;
+}
+.seven1 p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.main2{
+    margin: 130px 0px;
+    padding: 10px;
+}
+.seven h1{
+    margin-bottom: 50px;
+}
+
+.eight{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.eight img{
+    height: 250px;
+    width: 400px;
+    margin-bottom: 10px;
+    
+}
+.eight1 h1{
+    margin-bottom: 10px;
+}
+.eight1 p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.main3{
+    padding: 80px;
+
+}
+.nine{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ten{
+    display: flex;
+    gap: 40px;
+}
+.form{
+    padding: 15px;
+    border-radius: 20px;
+}
+.btn1{
+    background-color: rgba(250, 235, 215, 0.564);
+    padding: 12px;
+    border-radius: 20px;
+}
+.btn1:hover{
+    background-color: orange;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+.bg2{
+    background-color: rgba(0, 0, 0, 0.763);
+}
+.eleven{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.eleven1{
+    padding: 50px 0px;
+}
+.eleven2{
+    padding: 50px 0px;
+}
+.eleven2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.eleven2 h1{
+    margin-bottom: 50px;
+}
+.eleven2 ul li{
+    display: block;
+}
+
+
+
+
+
+
+.main5{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.thirteen ul li{
+    display: inline;
+}
+.twelve h3{
+    color: white;
+}
+.thirteen i{
+    padding: 10px;
+}
+.thirteen a{
+    text-decoration: none;
+    display:inline-block;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 426px){
+    .bg11{
+        background-color: white;
+    }
+    .one img{
+        height:40px;
+        width: 50px;
+        margin: 15px 0px;
+    }
+    .main0{
+        display: none;
+    }
+    .main{
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+    
+.main1{
+    margin: 30px 0px;
+    padding: 0px;
+    text-align: center;
+}
+.six h1{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.seven{
+    display: block;
+}
+.seven1 img{
+    height: 300px;
+    width: 250px;
+    margin-bottom: 10px;
+    
+}
+.seven1 h1{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.seven1 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.main2{
+    margin: 100px 0px;
+    padding: 0px;
+    text-align: center;
+}
+.seven h1{
+    margin-bottom: 50px;
+}
+
+.eight{
+    display: block;
+}
+.eight img{
+    height: 300px;
+    width: 250px;
+    margin: 20px 0px;
+    
+}
+.eight1 h1{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.eight1 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.main3{
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.nine{
+    display: block;
+}
+.nine1 h1{
+    font-size: 20px;
+}
+.ten{
+    display: block;
+}
+.form{
+    margin: 20px 0px;
+}
+.btn1{
+    padding: 10px 15px;
+}
+
+
+
+
+.main4{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.eleven{
+    display: block;
+}
+.eleven1{
+    padding: 10px 0px;
+}
+.eleven1 p{
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.eleven2{
+    padding: 0px 0px;
+    margin-bottom: 20px;
+}
+.eleven2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.eleven2 h1{
+    margin-bottom: 30px;
+}
+.eleven2 ul li{
+    display: block;
+}
+
+.main5{
+    display: block;
+    padding: 20px;
+}
+.twelve h3{
+    font-size: 15px;
+}
+.thirteen ul li{
+    display: inline;
+}
+.thirteen i{
+    padding:20px 40px 0px 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 427px) and (max-width: 770px){
+    .bg11{
+        background-color: white;
+    }
+    .one img{
+        height:40px;
+        width: 50px;
+        margin: 15px 0px;
+    }
+    .main0{
+        display: none;
+    }
+    .main{
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+
+
+
+
+    
+.main1{
+    margin: 30px 0px;
+    padding: 0px;
+    text-align: center;
+}
+.six h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.seven{
+    display: block;
+}
+.seven1 img{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 10px;
+    
+}
+.seven1 h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.seven1 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.main2{
+    margin: 100px 0px;
+    padding: 0px;
+    text-align: center;
+}
+.seven h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.eight{
+    display: block;
+}
+.eight img{
+    height: 500px;
+    width: 500px;
+    margin: 20px 0px;
+    
+}
+.eight1 h1{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.eight1 p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.main3{
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.nine{
+    display: block;
+}
+.nine1 h1{
+    font-size: 30px;
+}
+.ten{
+    display: block;
+}
+.form{
+    margin: 20px 0px;
+    padding: 10px 80px 10px 5px;
+}
+.btn1{
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+
+.main4{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.eleven1{
+    padding: 10px 0px;
+}
+.eleven1 p{
+    font-size: 10px;
+    margin: 15px 0px;
+}
+.eleven2{
+    padding: 0px 0px;
+    margin-bottom: 20px;
+}
+.eleven2 a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+
+}
+.eleven2 h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.eleven2 ul li{
+    display: block;
+    font-size: 11px;
+}
+
+
+
+
+
+
+.main5{
+    padding: 20px 0px;
+}
+.twelve h3{
+    font-size: 15px;
+}
+.thirteen ul li{
+    display: inline;
+}
+.thirteen i{
+    padding:0px 10px 0px 0px;
+}
+
+
+}
