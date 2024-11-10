@@ -32,7 +32,9 @@
 
 # About Page
 <br>
+
 ![Screenshot 2024-11-10 131138](https://github.com/user-attachments/assets/db310f1d-2b34-4a67-b58c-8f877f9bc47c)
+
 <br>
 
 # About Page_Mobile View
